@@ -1,8 +1,9 @@
 <div align="center">
 
-# Datasets
+# MMIF Datasets
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-访问数据集网站-337c79?style=for-the-badge&logo=github)](https://mmifusion.github.io/Datasets/)
+[![微信公众号原文](https://img.shields.io/badge/微信公众号原文-07C160?style=for-the-badge&logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/YtYd8Iujz2-xZDoECvzmzw?token=360709783&lang=zh_CN&scene=1#wechat_redirect)
 
 ### 图像融合与多模态感知数据集导航
 
