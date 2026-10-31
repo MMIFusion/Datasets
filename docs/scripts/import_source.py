@@ -48,12 +48,12 @@ for i,h in enumerate(heads):
 for d in items:
  for im in d['images']:
   import hashlib
-  cached=list((ROOT/'docs/assets/images').glob(hashlib.sha256(im['source'].encode()).hexdigest()[:16]+'.*'))
-  if cached: im['src']=cached[0].relative_to(ROOT/'docs').as_posix()
+  cached=list((ROOT/'assets/images').glob(hashlib.sha256(im['source'].encode()).hexdigest()[:16]+'.*'))
+  if cached: im['src']=cached[0].relative_to(ROOT).as_posix()
 assert len(items)==110,len(items)
 assert len({x['id'] for x in items})==110
 assert all(x['description'] for x in items)
-(ROOT/'docs/data/datasets.json').write_text(json.dumps(items,ensure_ascii=False,indent=2)+'\n')
+(ROOT/'data/datasets.json').write_text(json.dumps(items,ensure_ascii=False,indent=2)+'\n')
 print('Imported',len(items),'resources;',sum(len(x['images']) for x in items),'images')
 from collections import Counter
 print(Counter(x['category'] for x in items))

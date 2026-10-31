@@ -8,7 +8,7 @@
 
 A curated collection of datasets and benchmarks for image fusion and multimodal perception.
 
-**[浏览网站 ↗](https://mmifusion.github.io/Datasets/) · [完整目录](CATALOG.md) · [补充与勘误](https://github.com/MMIFusion/Datasets/issues) · [论文库](https://github.com/MMIFusion/ImageFusion)**
+**[浏览网站 ↗](https://mmifusion.github.io/Datasets/) · [完整目录](docs/CATALOG.md) · [补充与勘误](https://github.com/MMIFusion/Datasets/issues) · [论文库](https://github.com/MMIFusion/ImageFusion)**
 
 110 项资源 · 6 大方向 · 15 组任务
 
@@ -43,13 +43,13 @@ python3 -m http.server 8765 --directory docs
 
 ## 内容维护
 
-- `docs/data/datasets.json`：网站和 Markdown 目录共同的数据来源。
-- `docs/assets/images/`：原始配图的本地副本，数据文件中保留来源 URL。
-- `docs/assets/style.css`、`docs/assets/app.js`：页面样式与交互。
-- `source/original.html`：用户提供的原始 HTML，保留原文与文末推荐。
-- `scripts/build_catalog.py`：更新数据后运行，重新生成 `CATALOG.md`。
-- `scripts/import_source.py`：从原始 HTML 重新提取数据，会覆盖 JSON；需要 `beautifulsoup4`。
-- `scripts/cache_images.py`：下载原文配图，保留下载字节，不裁剪或改色。
+项目内容统一放在 `docs/`，包括网站、资源目录、原始材料与维护脚本。详见 [目录结构与维护说明](docs/README.md)。
+
+更新 `docs/data/datasets.json` 后，在仓库根目录运行：
+
+```sh
+python3 docs/scripts/build_catalog.py
+```
 
 首次发布：仓库 Settings → Pages → Deploy from a branch → `main` → `/docs` → Save。
 
@@ -57,4 +57,4 @@ python3 -m http.server 8765 --directory docs
 
 原创：公众号@多模态信息融合。本文开放转载，请在文章开头注明上述来源；整理不易，请勿直接搬运、抄袭。引用数据集开展研究时，请引用其原始论文或数据发布页。
 
-本项目中的数据集、论文、示例图片与第三方资源版权归各自作者所有，其使用许可不因本项目收录而改变。欢迎通过 Issue 或 Pull Request 补充资源和勘误，详见 [贡献说明](CONTRIBUTING.md)。
+本项目中的数据集、论文、示例图片与第三方资源版权归各自作者所有，其使用许可不因本项目收录而改变。欢迎通过 Issue 或 Pull Request 补充资源和勘误，详见 [贡献说明](docs/CONTRIBUTING.md)。
