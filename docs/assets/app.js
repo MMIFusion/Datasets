@@ -24,3 +24,22 @@ $('#search').addEventListener('input',()=>{visible=12;render();});$('#task').add
 window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#dataset='))openDetail(decodeURIComponent(location.hash.slice(9)),false);});
 async function init(){try{const res=await fetch('data/datasets.json');if(!res.ok)throw new Error('HTTP '+res.status);datasets=await res.json();datasets.forEach(d=>d.searchText=[d.name,d.title,d.task,d.category,d.paper,d.team,d.description,d.publication].join(' ').toLocaleLowerCase());renderCategories();renderTasks();render();const features=[['MSRS','VISIBLE × INFRARED'],['M3FD','OBJECT DETECTION'],['Lytro','MULTI-FOCUS'],['CAVE多光谱','HYPERSPECTRAL']];$('#visual-grid').innerHTML=features.map(([name,label])=>{const d=datasets.find(x=>x.name===name);return d?`<figure class="visual-tile">${d.images.length?imageHTML(d.images[0],d.name+' 示例图'):''}<figcaption>${esc(d.name)}<span>${label}</span></figcaption></figure>`:''}).join('');bindImageErrors($('#visual-grid'));if(location.hash.startsWith('#dataset='))openDetail(decodeURIComponent(location.hash.slice(9)),false);}catch(e){$('#result-count').textContent='资源加载失败，请刷新重试。';$('#results').innerHTML='<p>也可以前往 <a href="https://github.com/MMIFusion/Datasets/blob/main/docs/CATALOG.md">GitHub 阅读完整目录 ↗</a></p>';}}
 init();
+
+// Keep the contact selectable even if clipboard access is unavailable.
+const wechatInput = $('#wechat-id');
+let wechatFeedbackTimer;
+async function copyWechat() {
+  const status = $('#wechat-copy-status');
+  clearTimeout(wechatFeedbackTimer);
+  try {
+    await navigator.clipboard.writeText(wechatInput.value);
+    status.textContent = '微信号已复制 ✓';
+  } catch {
+    wechatInput.focus();
+    wechatInput.select();
+    status.textContent = '已选中，请手动复制';
+  }
+  wechatFeedbackTimer = setTimeout(() => { status.textContent = ''; }, 2400);
+}
+wechatInput.addEventListener('click', copyWechat);
+$('#copy-wechat').addEventListener('click', copyWechat);

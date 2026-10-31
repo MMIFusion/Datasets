@@ -3,5 +3,12 @@
 /* Social profile navigation */
 .header nav{gap:22px}.header nav a{white-space:nowrap}.social-nav{color:#526c65}
 @media(max-width:1100px){.header{padding-left:24px;padding-right:24px}.header nav{gap:14px;font-size:12px}}
-@media(max-width:900px){html{scroll-padding-top:140px}.header{height:auto;min-height:104px;flex-wrap:wrap;justify-content:center;gap:12px;padding:13px 18px}.header nav{width:100%;justify-content:center;flex-wrap:wrap;gap:8px 16px;font-size:11px}.header nav>a:nth-child(2){display:inline}.header .github-nav{padding:5px 9px}}
+@media(max-width:1100px){html{scroll-padding-top:150px}.header{height:auto;min-height:104px;flex-wrap:wrap;justify-content:center;gap:12px;padding:13px 18px}.header nav{width:100%;justify-content:center;flex-wrap:wrap;gap:8px 16px;font-size:11px}.header nav>a:nth-child(2){display:inline}.header .github-nav{padding:5px 9px}}
 @media(max-width:400px){.header nav{gap:8px 12px}.header nav .github-nav{padding:4px 7px}}
+
+/* Compact, selectable WeChat contact */
+.wechat-contact{position:relative;display:flex;align-items:center;flex:none;gap:3px;padding:7px 9px;background:#f0f6f2;border:1px solid #dce8e0;border-radius:7px;color:#3f7160}
+.wechat-contact label{font-size:11px;white-space:nowrap}.wechat-contact input{width:91px;min-width:0;padding:0;border:0;background:transparent;color:#285844;font-size:12px;font-weight:500;cursor:copy;outline-offset:2px}
+.wechat-contact button{display:grid;place-items:center;width:25px;height:25px;padding:4px;border:0;border-radius:4px;background:transparent;color:#568773}.wechat-contact button:hover{background:#dfece3}.wechat-contact svg{width:16px;height:16px}
+#wechat-copy-status:not(:empty){position:absolute;top:calc(100% + 7px);left:50%;transform:translateX(-50%);padding:6px 10px;border-radius:5px;background:#173744;color:white;font-size:11px;white-space:nowrap;box-shadow:0 3px 12px #17374420}
+@media(max-width:1100px){.wechat-contact{padding:3px 7px}.wechat-contact input{font-size:11px;width:84px}}
