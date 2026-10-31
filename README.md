@@ -18,14 +18,21 @@ A curated collection of datasets and benchmarks for image fusion and multimodal 
 
 ## 资源范围
 
-| 研究方向 | 资源数 |
-| --- | ---: |
-| 红外与可见光及相关多模态 | 88 |
-| 多聚焦图像融合 | 6 |
-| 多曝光图像融合 | 4 |
-| 遥感与光谱图像 | 6 |
-| 医学与显微图像 | 2 |
-| 其他模态与任务 | 4 |
+<div align="center">
+<table align="center">
+  <thead>
+    <tr><th align="center">研究方向</th><th align="center">资源数</th></tr>
+  </thead>
+  <tbody>
+    <tr><td align="center">红外与可见光及相关多模态</td><td align="center">88</td></tr>
+    <tr><td align="center">多聚焦图像融合</td><td align="center">6</td></tr>
+    <tr><td align="center">多曝光图像融合</td><td align="center">4</td></tr>
+    <tr><td align="center">遥感与光谱图像</td><td align="center">6</td></tr>
+    <tr><td align="center">医学与显微图像</td><td align="center">2</td></tr>
+    <tr><td align="center">其他模态与任务</td><td align="center">4</td></tr>
+  </tbody>
+</table>
+</div>
 
 部分资源同时适用于多项任务，按主要用途归类。收录包括原创数据、衍生版本、评测基准和资源集合，不能理解为 110 个独立采集、均可直接下载的数据集。具体信息、开放状态、训练测试划分与许可，以原论文和官方说明为准。本项目提供资源索引，不托管数据集本体。
 
