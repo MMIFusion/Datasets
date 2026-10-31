@@ -53,10 +53,10 @@ python3 docs/scripts/build_catalog.py
 
 首次发布：仓库 Settings → Pages → Deploy from a branch → `main` → `/docs` → Save。
 
-## 署名与使用
+## License
 
-完整条款见 [版权与使用说明](docs/COPYRIGHT.md)。
+本项目原创代码与配套原创文档采用 [MIT License](LICENSE)。
 
-原创：公众号@多模态信息融合。本文开放转载，请在文章开头注明上述来源；整理不易，请勿直接搬运、抄袭。引用数据集开展研究时，请引用其原始论文或数据发布页。
+Copyright (c) 2026 Yida Chen, Yafei Zhang, Huafeng Li, Zhengtao Yu, and Yu Liu.
 
-本项目中的数据集、论文、示例图片与第三方资源版权归各自作者所有，其使用许可不因本项目收录而改变。欢迎通过 Issue 或 Pull Request 补充资源和勘误，详见 [贡献说明](docs/CONTRIBUTING.md)。
+第三方数据集、论文与示例图片遵循各自原始许可，详见 [第三方版权说明](docs/COPYRIGHT.md)。欢迎通过 Issue 或 Pull Request 补充资源和勘误，详见 [贡献说明](docs/CONTRIBUTING.md)。

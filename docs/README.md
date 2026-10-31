@@ -10,7 +10,7 @@ docs/
 ├── index.html                网站入口与页面文案
 ├── CATALOG.md                完整数据集目录，由脚本生成
 ├── CONTRIBUTING.md           资源补充与勘误说明
-├── COPYRIGHT.md              版权、转载与第三方资源说明
+├── COPYRIGHT.md              MIT 许可范围与第三方版权说明
 ├── data/datasets.json        网站与完整目录共用的数据
 ├── assets/                   样式、交互脚本、图标及原图
 ├── scripts/                  内容维护工具
@@ -44,3 +44,5 @@ python3 -m http.server 8765 --directory docs
 - `source/original.html`：最初提供的完整 HTML，保留原文及文末推荐，用于核对和追溯；不会随 JSON 修改自动同步。
 
 脚本通过自身路径定位 `docs/`，也可从其他工作目录调用。
+
+正式 MIT 许可证位于仓库根目录 [LICENSE](../LICENSE)，其余网站与维护资料集中在本目录。
