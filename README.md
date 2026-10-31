@@ -12,7 +12,7 @@ A curated collection of datasets and benchmarks for image fusion and multimodal 
 
 110 项资源 · 6 大方向 · 15 组任务
 
-作者：汐萌、方圆 ｜ 公众号「多模态信息融合」
+作者：汐萌、囗〇 ｜ 公众号「多模态信息融合」
 
 </div>
 
@@ -66,6 +66,6 @@ python3 docs/scripts/build_catalog.py
 
 Copyright (c) 2026 公众号「多模态信息融合」。
 
-作者：汐萌、方圆。
+作者：汐萌、囗〇。
 
 第三方数据集、论文与示例图片遵循各自原始许可，详见 [第三方版权说明](docs/COPYRIGHT.md)。欢迎通过 Issue 或 Pull Request 补充资源和勘误，详见 [贡献说明](docs/CONTRIBUTING.md)。

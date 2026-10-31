@@ -6,11 +6,11 @@
 
 Copyright (c) 2026 公众号「多模态信息融合」
 
-作者：汐萌、方圆。
+作者：汐萌、囗〇。
 
 ## 项目来源
 
-本项目由 MMIFusion（公众号「多模态信息融合」）维护，作者为汐萌、方圆。欢迎在分享时附上项目来源，方便读者获取更新：
+本项目由 MMIFusion（公众号「多模态信息融合」）维护，作者为汐萌、囗〇。欢迎在分享时附上项目来源，方便读者获取更新：
 
 - 项目：https://github.com/MMIFusion/Datasets
 - 网站：https://mmifusion.github.io/Datasets/
