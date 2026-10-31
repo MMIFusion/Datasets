@@ -7,6 +7,8 @@
 @media(max-width:400px){.header nav{gap:8px 12px}.header nav .github-nav{padding:4px 7px}}
 
 /* Static WeChat contact label */
-.wechat-contact{display:flex;align-items:center;flex:none;gap:3px;padding:10px 12px;background:#f0f6f2;border:1px solid #dce8e0;border-radius:7px;color:#3f7160;white-space:nowrap;user-select:none;-webkit-user-select:none;cursor:default}
+.wechat-contact{display:flex;align-items:center;flex:none;gap:3px;padding:10px 12px;background:#f0f6f2;border:1px solid #dce8e0;border-radius:7px;color:#3f7160;white-space:nowrap;user-select:none;-webkit-user-select:none;cursor:pointer}
 .wechat-label{font-size:11px}.wechat-id{color:#285844;font-size:12px;font-weight:500}
 @media(max-width:1100px){.wechat-contact{padding:7px 9px}.wechat-id{font-size:11px}}
+
+.wechat-contact:hover{background:#e5f0e9;border-color:#bcd5c6}
