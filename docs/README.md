@@ -1,6 +1,6 @@
 # 网站与内容维护
 
-[项目首页](../README.md) · [在线网站](https://mmifusion.github.io/Datasets/) · [完整目录](CATALOG.md) · [贡献说明](CONTRIBUTING.md)
+[项目首页](../README.md) · [在线网站](https://mmifusion.github.io/Datasets/) · [完整目录](CATALOG.md) · [贡献说明](CONTRIBUTING.md) · [版权与使用说明](COPYRIGHT.md)
 
 ## 目录结构
 
@@ -10,6 +10,7 @@ docs/
 ├── index.html                网站入口与页面文案
 ├── CATALOG.md                完整数据集目录，由脚本生成
 ├── CONTRIBUTING.md           资源补充与勘误说明
+├── COPYRIGHT.md              版权、转载与第三方资源说明
 ├── data/datasets.json        网站与完整目录共用的数据
 ├── assets/                   样式、交互脚本、图标及原图
 ├── scripts/                  内容维护工具
