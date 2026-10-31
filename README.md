@@ -2,6 +2,8 @@
 
 # Datasets
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-访问数据集网站-337c79?style=for-the-badge&logo=github)](https://mmifusion.github.io/Datasets/)
+
 ### 图像融合与多模态感知数据集导航
 
 A curated collection of datasets and benchmarks for image fusion and multimodal perception.
