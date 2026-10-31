@@ -2,9 +2,9 @@
 
 # MMIF Datasets
 
-<a href="https://mmifusion.github.io/Datasets/"><img src="docs/assets/website-button.svg" alt="访问数据集网站" width="196" height="40"></a>
+<a href="https://mmifusion.github.io/Datasets/"><img src="docs/assets/website-button-with-icon.svg" alt="访问数据集网站" width="196" height="40"></a>
 &nbsp;&nbsp;
-<a href="https://mp.weixin.qq.com/s/YtYd8Iujz2-xZDoECvzmzw?token=360709783&amp;lang=zh_CN&amp;scene=1#wechat_redirect"><img src="docs/assets/wechat-button.svg" alt="微信公众号原文" width="196" height="40"></a>
+<a href="https://mp.weixin.qq.com/s/YtYd8Iujz2-xZDoECvzmzw?token=360709783&amp;lang=zh_CN&amp;scene=1#wechat_redirect"><img src="docs/assets/wechat-button-with-icon.svg" alt="微信公众号原文" width="196" height="40"></a>
 
 ### 图像融合与多模态感知数据集导航
 
