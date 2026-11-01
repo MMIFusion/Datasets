@@ -286,7 +286,11 @@
       "论文链接": "https://papers.nips.cc/paper_files/paper/2025/hash/ab96f6d04380de817ed3a1bad9b92f2e-Abstract-Conference.html",
       "下载链接": "Google Drive 数据集 项目代码： https://github.com/Linfeng-Tang/ControlFusion"
     },
-    "images": [],
+    "images": [
+      {
+        "src": "assets/images/ddl-12.png"
+      }
+    ],
     "status": "见原文说明"
   },
   {
