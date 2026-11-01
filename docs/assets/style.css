@@ -12,3 +12,7 @@
 .wechat-contact:hover{color:var(--teal);background:none}
 
 .hero-actions{flex-wrap:wrap}
+
+.brand-group { display: flex; align-items: center; gap: 12px; }
+.visit-count { padding-left: 12px; border-left: 1px solid var(--line); color: #526c65; font-size: 12px; white-space: nowrap; }
+.visit-count b { font-variant-numeric: tabular-nums; }
