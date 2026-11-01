@@ -288,6 +288,7 @@
     },
     "images": [
       {
+        "source": "https://mmifusion.github.io/Datasets/assets/images/ddl-12.png",
         "src": "assets/images/ddl-12.png"
       }
     ],
