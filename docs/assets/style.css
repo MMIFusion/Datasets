@@ -2,14 +2,9 @@
 
 /* Social profile navigation */
 .header nav{gap:22px}.header nav a{white-space:nowrap}.social-nav{color:#526c65}
-.header { gap: 24px; overflow-x: auto; }
-.header nav, .header .brand { flex: none; white-space: nowrap; }
-@media (max-width: 1100px) {
-  .header { height: 64px; padding: 0 18px; gap: 18px; }
-  .header nav { gap: 14px; font-size: 12px; }
-  .header nav > a:nth-child(2) { display: inline; }
-  .header .github-nav { padding: 5px 9px; }
-}
+@media(max-width:1100px){.header{padding-left:24px;padding-right:24px}.header nav{gap:14px;font-size:12px}}
+@media(max-width:1100px){html{scroll-padding-top:150px}.header{height:auto;min-height:104px;flex-wrap:wrap;justify-content:center;gap:12px;padding:13px 18px}.header nav{width:100%;justify-content:center;flex-wrap:wrap;gap:8px 16px;font-size:11px}.header nav>a:nth-child(2){display:inline}.header .github-nav{padding:5px 9px}}
+@media(max-width:400px){.header nav{gap:8px 12px}.header nav .github-nav{padding:4px 7px}}
 
 /* Match the adjacent social links without a contact box. */
 .wechat-contact{display:inline;flex:none;padding:0;border:0;background:none;border-radius:0;color:#526c65;white-space:nowrap;user-select:none;-webkit-user-select:none;cursor:pointer;font:inherit}
@@ -17,7 +12,3 @@
 .wechat-contact:hover{color:var(--teal);background:none}
 
 .hero-actions{flex-wrap:wrap}
-
-
-.visit-count { margin-left: 8px; padding-left: 8px; border-left: 1px solid var(--line); color: #526c65; font-size: 12px; white-space: nowrap; }
-.visit-count b { font-variant-numeric: tabular-nums; }
