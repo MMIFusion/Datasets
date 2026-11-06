@@ -61,6 +61,7 @@ A curated collection of datasets and benchmarks for image fusion and multimodal 
 
 ### 团队与发表信息
 发表团队及机构：
+全部论文作者（按论文署名顺序）：
 论文名称：
 期刊或会议及年份（未发表请写预印本或未发表）：
 发表状态依据链接：

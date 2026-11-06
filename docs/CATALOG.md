@@ -2192,7 +2192,7 @@ WHU-OPT-SAR 是光学—SAR 联合土地利用分类数据集，使用高分一�
 
 **标签：** 光学–SAR 融合目标检测 ｜ 多分辨率 ｜ 多极化 ｜ 多场景 ｜ 多源
 
-**发表团队：** Lei Luo、Jian Yang 团队@南京理工大学，联合安徽大学、南开大学
+**发表团队：** Lei Luo、Jian Yang 团队@南京理工大学，联合安徽大学、南开大学；论文作者（按原文顺序）：Chao Wang、Wei Lu、Xiang Li、Jian Yang、Lei Luo
 
 **论文题目：** M4-SAR: A Multi-Resolution, Multi-Polarization, Multi-Scene, Multi-Source Dataset and Benchmark for optical-SAR Object Detection
 
