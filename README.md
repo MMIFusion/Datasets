@@ -12,7 +12,7 @@ A curated collection of datasets and benchmarks for image fusion and multimodal 
 
 **[浏览网站 ↗](https://mmifusion.github.io/Datasets/) · [完整目录](docs/CATALOG.md) · [补充与勘误](https://github.com/MMIFusion/Datasets/issues) · [论文库](https://github.com/MMIFusion/ImageFusion)**
 
-110 项资源 · 6 大方向 · 15 组任务
+111 项资源 · 6 大方向 · 16 组任务
 
 作者：汐萌、囗〇 ｜ 公众号「多模态信息融合」
 
@@ -29,14 +29,14 @@ A curated collection of datasets and benchmarks for image fusion and multimodal 
     <tr><td align="center">红外与可见光及相关多模态</td><td align="center">88</td></tr>
     <tr><td align="center">多聚焦图像融合</td><td align="center">6</td></tr>
     <tr><td align="center">多曝光图像融合</td><td align="center">4</td></tr>
-    <tr><td align="center">遥感与光谱图像</td><td align="center">6</td></tr>
+    <tr><td align="center">遥感与光谱图像</td><td align="center">7</td></tr>
     <tr><td align="center">医学与显微图像</td><td align="center">2</td></tr>
     <tr><td align="center">其他模态与任务</td><td align="center">4</td></tr>
   </tbody>
 </table>
 </div>
 
-部分资源同时适用于多项任务，按主要用途归类。收录包括原创数据、衍生版本、评测基准和资源集合，不能理解为 110 个独立采集、均可直接下载的数据集。具体信息、开放状态、训练测试划分与许可，以原论文和官方说明为准。本项目提供资源索引，不托管数据集本体。
+部分资源同时适用于多项任务，按主要用途归类。收录包括原创数据、衍生版本、评测基准和资源集合，不能理解为 111 个独立采集、均可直接下载的数据集。具体信息、开放状态、训练测试划分与许可，以原论文和官方说明为准。本项目提供资源索引，不托管数据集本体。
 
 ## 网站
 

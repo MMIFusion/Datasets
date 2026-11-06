@@ -2188,6 +2188,30 @@ WHU-OPT-SAR 是光学—SAR 联合土地利用分类数据集，使用高分一�
 
 ---
 
+### M4-SAR 光学–SAR 融合目标检测数据集
+
+**标签：** 光学–SAR 融合目标检测 ｜ 多分辨率 ｜ 多极化 ｜ 多场景 ｜ 多源
+
+**发表团队：** Lei Luo、Jian Yang 团队@南京理工大学，联合安徽大学、南开大学
+
+**论文题目：** M4-SAR: A Multi-Resolution, Multi-Polarization, Multi-Scene, Multi-Source Dataset and Benchmark for optical-SAR Object Detection
+
+**发表：** ECCV 2026
+
+**论文链接：** https://arxiv.org/abs/2505.10931
+
+**下载链接：** https://github.com/wchao0601/M4-SAR
+
+**代码仓库：** https://github.com/wchao0601/M4-SAR
+
+这篇论文针对光学–SAR融合目标检测缺乏大规模、标准化数据集的问题，构建了M4-SAR数据集。光学图像具有丰富的纹理、颜色和语义信息，但容易受到弱光、云层遮挡等因素影响；SAR图像具备全天时、全天候成像能力，却存在散斑噪声和语义表达不足等问题。M4-SAR围绕两种模态的互补特性，为复杂环境下的遥感目标检测提供配对数据和统一评测基础。数据集基于Sentinel-1和Sentinel-2卫星的公开数据构建，具有多分辨率、多极化、多场景和多源四个特点，共包含112,174对实例级对齐的光学–SAR图像，以及981,862个带有方向信息的目标实例，覆盖6类目标。图像尺寸统一为512×512像素，包含10米、60米两种光学空间分辨率及VH、VV两种SAR极化方式。在标注过程中，研究利用光学图像丰富的语义信息辅助SAR目标标注，并采用半监督策略提升标注质量，为跨模态融合与旋转目标检测研究提供支持。
+
+![M4-SAR 原始示例图](assets/images/m4-sar.png)
+
+[在网页中查看](https://mmifusion.github.io/Datasets/#dataset=m4-sar)
+
+---
+
 ## 医学与显微图像
 
 ### Harvard多模态医学图像数据集
